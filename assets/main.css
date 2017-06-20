@@ -19,6 +19,10 @@
     opacity: .5;
 }
 
+html {
+    background: aliceblue;
+}
+
 body {
     background: transparent;
     font-family: 'Raleway', sans-serif;
@@ -27,36 +31,21 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 20px;
+    padding: 85px 20px 50px 20px;
 }
 
-nav {
-    position: fixed;
-    top: 0 ;
-    left: 0;
+.navbar-header {
+    color: aliceblue;
+    padding: 0;
+    margin: 10px 15px;
+}  
+ 
+.navbar{
     background: #545454;
-    border-bottom: 5px aliceblue solid;
-    height: 66px;
-    width: 100%;
 }
 
-nav ul {
-    float: right;
-    list-style-type: none;
-    
-}
-
-nav li {
-    float: left;
-    width: auto;
-    border: 1px aliceblue solid;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 5px 10px;
-}
-
-nav li:hover {
-    background-color: aliceblue;
+ .glyphicon {
+    margin: 0 10px;
 }
 
 h1 {
@@ -84,120 +73,24 @@ h3 {
 
 }
 
-h4 {
-    color: #222;
-    font-weight: 600;
-    margin: 10px 0px 10px 0px;
-    border: 1px aliceblue solid;
-    text-align: center;
-    background: #545454;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-h4:hover {
-    cursor: pointer;
-}
-
-.btn {
+ .btn {
     width: 200px;
     border: 3px solid #545454;
 }
 
-#home {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 150%;
-    padding: 50px;
-}
+
 
 img {
     text-align: center;
     border: 5px #e6e9e9 inset;
-    width: 350px;
 }
-
-
-
-#accommodations {
-    padding: 50px;
-}
-
-a {
-    color: #0083e8;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #222;
-}
-
-#hotel-address {
-    text-align: center;
-    margin: 10px 50px;
     
-    padding: 15px;
-}
-
-#clear {
-    clear: both;
-}
-
-#hotel{
-    margin: 15px 10px 10px 0px;
-    float: right;
-    width: 300px;
-}
-#hotel-link {
-    width: 200px;
-    border: 1px aliceblue solid;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 10px 0px;
+#hotel-info {
     text-align: center;
 }
 
-#schedule {
-    padding: 50px;
+#hotel-info h4 {
+    margin: 40px 0;
 }
-
-#marriagephoto {
-    text-align: center;
-}
-
-#MaryPaulKouba {
-    width: 200px; 
-}
-
-#thingstodo {
-    padding: 50px 80px;
-}
-
-
-footer {
-    font-size: 80%;
-    text-align: right;
-}
-
-@media only screen and (max-width: 680px)
-{
-    img {
-        width:250px;
-        height: auto;
-    }
-    
-    body {
-        font-size: 50%;
-    }
-    
-    nav {
-        height: 50px;
-    }
-    
-    nav li {
-        margin: 2px;
-        padding: 2px;
-    }
-    
 
 
